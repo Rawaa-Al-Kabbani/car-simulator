@@ -1,7 +1,7 @@
 module.exports = class Dimentions {
-  constructor(x,y) {
-    this.startXcar= Number(x);
-    this.startYcar= Number(y);
+  constructor(x, y) {
+    this.startXcar = Number(x);
+    this.startYcar = Number(y);
     this.endXcar = this.startXcar;
     this.endYcar = this.startYcar;
   }
@@ -29,4 +29,4 @@ module.exports = class Dimentions {
   setEndYcar(newEndYcar) {
     this.endYcar = newEndYcar;
   }
-}
+};

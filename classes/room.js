@@ -1,12 +1,12 @@
-  module.exports = class Room {
-    constructor(width, length) {
-      this.width = width;
-      this.length = length;
-      this.startXroom = 0;
-      this.endXroom = this.startXroom + Number(width);
-      this.startYroom = 0;
-      this.endYroom = this.startYroom + Number(length);
-    }
+module.exports = class Room {
+  constructor(width, length) {
+    this.width = width;
+    this.length = length;
+    this.startXroom = 0;
+    this.endXroom = this.startXroom + Number(width);
+    this.startYroom = 0;
+    this.endYroom = this.startYroom + Number(length);
+  }
   getStartXroom() {
     return this.startXroom;
   }
@@ -31,4 +31,4 @@
   setEndYroom(newEndYroom) {
     this.endYroom = newEndYroom;
   }
-  }
+};
